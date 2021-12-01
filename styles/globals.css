@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    body{
+        @apply bg-green-100
+    }
+    .btn{
+        @apply p-1 text-gray-500 flex items-center justify-center flex-col
+    }
+    .button{
+        @apply py-2 px-4 font-semibold rounded-lg shadow-sm text-white bg-blue-600 hover:bg-blue-900 mb-4
+    }
+    h1 {
+        @apply text-gray-500
+    }
+    .form{
+        @apply bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4
+    }
+    .form-m{
+        @apply mb-4
+    }
+    .h-title{
+        @apply mb-4 text-center
+    }
+    .title {
+        @apply block text-gray-700 text-lg font-bold
+    }
+    input[type=text]{
+        @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight mb-2
+    }
+    .odd{
+        @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight mb-2
+    }
+    .submit{
+        @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6
+    }
+}
