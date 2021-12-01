@@ -18,13 +18,13 @@ function Report() {
                 <div className="form-m">
                 <label className="title">Reason for requisition</label><br />
                 <input type="radio" id="prison" name="reason" value="prison" />
-                <label for="prison">Prison Visit</label><br />
+                <label htmlFor="prison" >Prison Visit</label><br />
                 <input type="radio" id="court" name="reason" value="court" /> 
-                <label for="court">Court Appearance</label><br />
+                <label htmlFor="court">Court Appearance</label><br />
                 <input type="radio" id="filing" name="reason" value="filing" /> 
-                <label for="filing">Court Filing</label> <br />
+                <label htmlFor="filing" >Court Filing</label> <br />
                 <input type="radio" id="other" name="contact" value="other" />
-                <label for="other">Other</label>
+                <label htmlFor="other" >Other</label>
                 <input type="text" id="otherText" />
                 </div>
                 <div className="form-m">

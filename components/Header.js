@@ -6,7 +6,7 @@ function Header() {
     return (
         <div>
             <div>
-                <center className="mb-4"><Image src= {logo}/></center>
+                <center className="mb-4"><Image src= {logo} alt="vrflogo"/></center>
                 
             </div>
         </div>
