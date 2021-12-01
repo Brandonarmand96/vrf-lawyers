@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Facilities from '../components/Facilities';
 import Lawyers from '../components/Lawyers';
-import Funds from '../components/funds';
+import Funds from '../components/Funds';
 import Report from '../components/Report';
 import { useState } from 'react';
 
